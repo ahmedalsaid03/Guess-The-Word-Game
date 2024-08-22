@@ -11,7 +11,7 @@ let numbersOfLetters = 6;
 let numberOfHints = 2;
 let currentTry = 1;
 let wordToGuess = "";
-const words = ["Gamela","Alsaid","Delete","Master","Branch","Mainly","Elzero","School"];
+const words = ["Gamela","Alsaid","Delete","Button","	Desert","Coffee","	Circle","School"];
 wordToGuess = words[Math.floor(Math.random() * words.length)].toLowerCase();
 
 // Holded From Html 
@@ -69,7 +69,7 @@ function generateInputs() {
     })
 
 }
-console.log(wordToGuess)
+// console.log(wordToGuess)
 
 function handleCheck(){
     let successGuess = true;
